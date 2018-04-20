@@ -1,0 +1,14 @@
+sander@debian:~$ telnet localhost 5555
+Trying ::1...
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+200 Welcome
+article blabla
+100 OK
+nonsense
+100 OK
+quit
+100 OK
+Connection closed by foreign host.
+sander@debian:~$
